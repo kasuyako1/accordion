@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url("images/01_store-interior-monochrome.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #3F3F3F;
+  background-attachment: fixed;
+  height: 6000px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+header {
+  background-color: rgb(209,209,209,0.85);
+}
+
+main {
+  width: 90%;
+  margin: 0px auto;
+  flex: 1;
+}
+
+img {
+  width: 40%;
+}
+
+footer {
+  background-color: rgb(209,209,209,0.85);
+}
+
+.catch-copy {
+  font-size: x-large;
+  padding: 16px 8px;
+}
+
+.catch-desc {
+  font-size: medium;
+  padding: 4px 16px 16px 16px;
+}
+
+.shoes-wrap {
+  width: 100%;
+  background-color: rgb(255,255,255,0.6)
+}
+
+
